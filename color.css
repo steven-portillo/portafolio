@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+    height: 100vh;  
+    background-color: lightcyan;         
+}
+
+.caja-principal {
+    background-color: chartreuse;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    /* padding-top: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem; */
+    width: 90%;
+    height: 90%;
+    gap: .5rem;
+}
+.izq {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    background-color: aqua;
+    border: 1px solid black;
+    width: 45%;
+    height: 97%;
+}
+.tex {
+    background-color: brown;
+    border: 1px solid black;
+    width: 95%;
+    height: 45%;
+    text-align: center;
+    
+}
+.bot {
+    background-color: blueviolet;
+    border: 1px solid black;
+    width: 95%;
+    height: 45%;
+
+}
+.der {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    border: 1px solid black;
+    width: 45%;
+    height: 97%;
+}
+.img {
+    background-color: rgb(255, 14, 14);
+    border: 1px solid black;
+    width: 95%;
+    height: 95%;
+}
+
